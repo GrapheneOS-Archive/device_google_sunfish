@@ -172,7 +172,6 @@ endif
 # A/B support
 PRODUCT_PACKAGES += \
     otapreopt_script \
-    cppreopts.sh \
     update_engine \
     update_verifier
 
@@ -188,9 +187,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PACKAGES += \
     bootctrl.sm6150 \
     bootctrl.sm6150.recovery
-
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.cp_system_other_odex=1
 
 AB_OTA_POSTINSTALL_CONFIG += \
     RUN_POSTINSTALL_system=true \
