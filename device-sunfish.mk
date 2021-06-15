@@ -116,3 +116,7 @@ PRODUCT_PRODUCT_PROPERTIES += ro.com.google.ime.height_ratio=1.2
 # Bluetooth Tx power caps for sunfish
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/bluetooth_power_limits_sunfish.csv:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth_power_limits.csv
+
+# Set of *_EXPERIENCE features for sunfish
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/google_experience.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/google_experience.xml
