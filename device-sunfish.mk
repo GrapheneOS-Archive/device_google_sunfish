@@ -130,7 +130,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 PRODUCT_PACKAGES += \
     NoCutoutOverlay \
-    AvoidAppsInCutoutOverlay
 
 # Set of *_EXPERIENCE features for sunfish
 PRODUCT_COPY_FILES += \
