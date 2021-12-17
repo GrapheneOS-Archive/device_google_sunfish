@@ -20,3 +20,5 @@ ifeq ($(USES_DEVICE_GOOGLE_SUNFISH),true)
   subdir_makefiles=$(call first-makefiles-under,$(LOCAL_PATH))
   $(foreach mk,$(subdir_makefiles),$(info including $(mk) ...)$(eval include $(mk)))
 endif
+
+include device/google/sunfish/AndroidBoard.mk
