@@ -126,7 +126,7 @@ endif
 
 # Enable Incremental on the device via kernel module
 PRODUCT_PROPERTY_OVERRIDES += \
-        ro.incremental.enable=module:/vendor/lib/modules/incrementalfs.ko
+        ro.incremental.enable=yes
 
 # Enable watchdog timeout loop breaker.
 PRODUCT_PROPERTY_OVERRIDES += \
