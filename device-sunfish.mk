@@ -134,3 +134,8 @@ PRODUCT_PACKAGES += \
 # Set of *_EXPERIENCE features for sunfish
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/google_experience.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/google_experience.xml
+
+# RCS packages (com.android.service.ims.presence and com.android.service.ims)
+PRODUCT_PACKAGES += \
+    PresencePolling \
+    RcsService
