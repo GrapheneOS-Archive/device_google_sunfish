@@ -133,3 +133,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
     framework_watchdog.fatal_window.second=600 \
     framework_watchdog.fatal_count=3
 
+PRODUCT_COPY_FILES += \
+    device/google/sunfish/product-permissions-stock.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/product-permissions-stock.xml
