@@ -130,7 +130,3 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 PRODUCT_PACKAGES += \
     NoCutoutOverlay \
-
-# Set of *_EXPERIENCE features for sunfish
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/google_experience.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/google_experience.xml
